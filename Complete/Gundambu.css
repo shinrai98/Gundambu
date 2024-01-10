@@ -9,65 +9,122 @@
 .orange{color:orange}
 .black{color:black}
 .gray{color:gray}
+.gold{color:gold}
+.footerh1{
+    color:red;
+    text-decoration: none;
+    border:3px white solid;
+}
+.footerh3{
+    color:white;
+    text-decoration: none;
+    border:3px red solid;
+}
+.fl1{
+    width:50%;
+    height:500px;
+    float:left;
+}
+.fl2{
+    width:50%;
+    height:500px;
+    float:right;
+}
 
 body{
     font-size:25px;
+
     background-color:black;
     border: 5px white groove;
-    padding: 5px;
+    padding: 10px;
     margin: 15px;
+    outline: 5px white;
 }
 
 header{
     text-align: center;
-    
+
     border:7px brown ridge;
-    padding:5px;
-    margin:5px;
+    padding:10px;
+    margin:10px;
+    border-radius: 15px;
 }
 
-header a{
-    color:red;
-    text-decoration: none;
+header h1{
+
+    border:5px white solid;
+    padding:10px;
+    margin:10px;
+    text-decoration:none;
+    display:inline-block;
+
+    background: url(../img/Wallpaper/4.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
+header img{
+    border: 15px rgb(253, 235, 235) double;
+    width: 800px;
+    height:500px;
+    margin:5px;
  }
 
 main{
     border:7px cyan inset;
-    padding:5px;
-    margin:5px;
+    padding:20px;
+    margin:10px;
+    border-radius: 15px;
 }
+
+main img{
+    border: 15px darkred double;
+    width: 770px;
+    height:500px;
+    margin:100px;
+ }
 
 footer{
     font-size: 25px;
     text-align: right;
+    text-decoration:none;
+    background-color: rgb(40, 40, 40);
 
     border:7px gold outset;
-    padding:5px;
-    margin:5px;
+    padding:10px;
+    margin:10px;
+    border-radius: 15px;
+}
 
+footer a{
+    text-decoration:none;
+    color:red;
 }
 
 nav{
-    background-color: rgb(169, 169, 1);
+    color:white;
+
+    border:3px white solid;    
+    padding:4px;          
+    border-radius: 15px;
+    position:fixed;
+    bottom:7px;
+    left:250px;
 }
 
 nav a{
     color:white;
     text-decoration: none;
+    transition:box-shadow, color, 1s;
 }
 
 nav a:hover{
     background-color: gray;
-}
-
-ol{
-    color:yellow;
+    box-shadow:inset 120px 0 white;
+    color:black;
 }
 
 p{
     color:white;
 }
-
-
-
-
